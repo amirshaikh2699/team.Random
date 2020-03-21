@@ -1,0 +1,21 @@
+.loader-parent {
+    align-items: center;
+    background-color: rgba(38, 50, 56, 0.2784313725490196);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  .loader-parent .loader-main {
+    animation: spin 1s linear infinite;
+    border: 5px solid #263238;
+    border-left: 5px solid #f3f3f3;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    z-index: 1000;
+  }

@@ -1,0 +1,50 @@
+.footer-main {
+  background-color: #263238;
+  color: #fff;
+  font-size: 12px;
+  padding: 20px 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.footer-main .footer {
+  width: 70%;
+  margin: 0 auto;
+}
+.footer-main .footer ul li {
+  list-style: none;
+}
+
+.footer ul li a {
+  color: #91c6ff;
+}
+.about-me {
+  position: relative;
+}
+.about-me ul li {
+  list-style: none !important;
+}
+
+.about-me .dp {
+  border-radius: 50%;
+  filter: brightness(0.85);
+  height: 50px;
+  width: 50px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+.detail-list {
+  padding: 0;
+}
+.detail-list li ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+.ilmux-logo img {
+  height: 20px;
+  width: 50px;
+  border-radius: 0;
+  filter: none;
+  padding-left: 5px;
+}
